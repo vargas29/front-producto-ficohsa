@@ -1,0 +1,116 @@
+/* styles.module.css */
+
+/* Estilos para el formulario de edición */
+.formEditContainer {
+  margin-bottom: 20px;
+}
+
+.formEditLabel {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.formEditInput {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.formEditButton {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos para el detalle del ítem */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.popupContent {
+  text-align: center;
+}
+
+.popupContentTitle {
+  margin-bottom: 15px;
+}
+
+.popupContentInput {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.popupContentButton {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Estilos para los resultados de la búsqueda */
+.searchResults {
+  list-style: none;
+  padding: 0;
+}
+
+.searchResultsItem {
+  margin-bottom: 10px;
+}
+
+.searchResultsItemContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.searchResultsItemContentSpan {
+  margin-right: 10px;
+}
+
+.searchResultsItemButton {
+  padding: 6px 12px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos para la caja de búsqueda */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.formContainer {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.inputSearch {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.buttonSearch {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
